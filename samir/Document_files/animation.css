@@ -1,0 +1,130 @@
+.main{
+    
+    margin-top: 5%;
+    bottom: 50px;
+    left: 50px;
+    justify-content: center;
+  
+    display: flex;
+}
+.ivv{
+    background-color: aqua;
+    border-radius: 90px;
+    width: 50px;
+    height: 50px;
+    animation:ani4;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    
+    animation-duration:3.5s;
+}
+.ivv1{
+    background-color: red;
+    border-radius: 90px;
+    width: 50px;
+    height: 50px;
+    animation:ani4;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    
+    animation-duration: 5.3s;
+}
+.ivv2{
+    background-color: rgb(215, 213, 111);
+    border-radius: 90px;
+    width: 50px;
+    height: 50px;
+    animation:ani4;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    
+    animation-duration: 4.5s;
+}
+.ivv3{
+    background-color: rgb(76, 92, 155);
+    border-radius: 90px;
+    width: 50px;
+    height: 50px;
+    animation:ani4;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    
+    animation-duration: 4s;
+}
+.ivv4{
+    background-color: rgb(141, 117, 117);
+    border-radius: 90px;
+    width: 50px;
+    height: 50px;
+    animation:ani4;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    
+    animation-duration: 2.8s;
+}
+@keyframes ani {
+    0%{
+           margin-left: 0px;
+           margin-top: 400px;
+    }
+    50%{
+        margin-left: 0px;
+           margin-top: 400px;
+    }
+    
+}
+@keyframes ani1 {
+    0%{
+           margin-left: 0px;
+           margin-top: 400px;
+    }
+    50%{
+        margin-left: 0px;
+           margin-top: 400px;
+    }
+    
+}
+@keyframes ani2 {
+    0%{
+           margin-left: 0px;
+           margin-top: 400px;
+    }
+    50%{
+        margin-left: 0px;
+           margin-top: 400px;
+    }
+    
+}
+@keyframes ani3 {
+    0%{
+           margin-left: 0px;
+           margin-top:400px;
+    }
+    50%{
+        margin-left: 0px;
+           margin-top: 400px;
+    }
+    
+}
+@keyframes ani4 {
+    0%{
+           margin-left: 0px;
+           margin-top: 0px;
+    }
+    50%{
+        margin-left: 0px;
+           margin-top: 300px;
+    }
+    
+}
+
+
+
+
+
+
+
+
+
+
+

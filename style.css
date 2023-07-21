@@ -1,0 +1,179 @@
+ *{
+    margin:0px;
+    padding:0px;
+}
+body{
+    background-image: url('images/image-wal.webp');
+background-repeat: no-repeat;
+background-size: 100%;
+background-position: fixed;
+}
+.uni-padding{
+    padding:2% 5%;
+}
+#navbar{
+    display: flex;
+    justify-content: space-between;
+    
+
+}
+#navbar h1{
+    color:orangered;
+    font-size:2.5em;
+    background-color: aquamarine;
+    border-radius:5px;
+    letter-spacing: 0.1em;
+    
+
+
+}
+#heading-content ul{
+    display:flex;
+    color:white;
+    list-style-type: none;
+
+}
+#heading-content ul li a{
+    padding:30px;
+    color:white;
+    font-size:1.5em;
+    text-decoration: none;
+}
+
+#heading-content ul li a:hover{
+    color:aqua;
+}
+
+#heading-content ul input{
+    background: transparent;
+    border:2px solid aqua;
+     color:red;
+    font-size:1em;
+
+}
+#heading-content ul button{
+    font-size:1em;
+    width:80px;
+    height:30px;
+    background-color: aqua;
+  
+}
+#heading-content ul button:hover{
+    background-color: red;;
+}
+#heading-content ul input::-webkit-input-placeholder {
+    color: white;
+  }
+
+  /* navbar close */
+
+  /* section part */
+   section{
+    display:flex;
+}
+  #section60{
+    width:55%;
+    /* float:left; */
+
+    
+  }
+  #section60 h1{
+    color:aqua;
+    font-size:3em;
+    padding-top:100px;
+
+
+  }
+  #section60 p{
+    color:white;
+    font-size:1.4em;
+    padding-top:15px;
+    text-align:justify;
+
+  }
+  #section60 button{
+          width:150px;
+          height:40px;
+          background-color: aqua;
+          text-decoration: none;
+          border:none;
+          border-radius:18px;
+          margin-top:20px;
+          font-size:1.1em;
+          font-weight:bold;
+  }
+  #section60 button:hover{
+    background-color: orangered;
+  }
+
+
+  /* section40 start */
+  #section40{
+    width:30%;
+    margin-left:180px;
+    margin-top:100px;
+     
+  }
+  #login-page{
+    border:1px solid red;
+    display:flex;
+    flex-direction:column;
+    padding:30px;
+    background-color: aquamarine;
+    border-radius:20px;
+  }
+  #login-page #login-here{
+    text-align:center;
+    font-size:2em;
+    border:1px solid white;
+    background-color: aliceblue;
+    font-weight:bold;
+    border-radius:11px;
+    color:orangered;
+  }
+  .padding-all{
+     margin-top:20px;
+  }
+#login-page button{
+    height:38px;
+    border-radius:12px;
+    border:none;
+    font-size:1.3em;
+    background-color: rgb(233, 126, 19);
+}
+
+#login-page button:hover{
+    background-color: aqua;
+}
+#login-page h2{
+    text-align: center;
+    font-size:1.em;
+}
+#login-page h3{
+    text-align: center;
+}
+#login-page a{
+    font-size:1.2em;
+    text-decoration: none;
+    text-align: center;
+}
+
+.icon{
+text-align: center;
+margin-top:20px;
+font-size:1.2em;
+
+}
+.icon a{
+    padding-left:30px;
+
+   
+
+}
+
+  /* section close */
+
+
+  
+
+

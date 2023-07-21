@@ -1,0 +1,288 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'poppins',sans-serif;
+}
+
+.uni-padding{
+    padding:2% 4%;
+}
+.container{
+    width: 100%;
+    height: 100vh;
+    background-image: url(https://www.techelevator.com/wp-content/uploads/2022/12/software-developer-g42e1d955c_640.jpg);
+    background-size:100% 100%;
+    position: relative;
+}
+
+.nav ul li{
+      display: inline-block;
+      font-size: 20px;
+      padding-left: 40px;
+}
+.nav ul{
+    float: right;
+}
+.nav ul li :hover {
+    text-decoration: underline;
+     /* background: linear-gradient(red,green,aqua,pink);  */
+    color:white;
+    border-radius: 10px;
+    box-shadow: 3px 3px 3px 3px aqua;
+    
+} 
+   /* nave contener close */ 
+
+
+.D1{
+    position:relative;
+    top:300px;
+}
+
+.D1 .row{
+    display:flex;
+}
+.D1 .row a{
+    border:2px solid aqua;
+    text-decoration: none;
+    padding:7px 10px; 
+    margin-left:10px;
+}
+.D1 .row p{
+    margin-left:10px;
+    color: white;
+}
+.D1 h1{
+      color: white;
+      font-size: 3em;
+}
+.D1 h2{
+    font-size: 8em;
+    color: white;
+    color: transparent;
+    -webkit-text-stroke: 1px aqua;
+    background:url(https://img.freepik.com/premium-photo/blue-water-splash-black-background_36326-1197.jpg);
+    -webkit-background-clip: text;
+    background-position: 0 0;
+    animation: back 20s linear infinite;
+
+}
+@keyframes back {
+    100%{
+        background-position: 2000px 0;
+    }
+    
+}
+.D1 h3{
+      color: white;
+      font-size: 25px;
+}
+
+/* home container close */
+
+/* about container sarat */
+
+.aboutme-container{
+    background-color: black;height: 100vh;
+    position:relative;
+
+}
+.aboutme-container h1{
+    color:aqua;
+    font-size: 3em;
+    
+}
+.aboutme-container .imgg{
+    position: relative;
+    top:160px;
+}
+.aboutme-container .imgg img{
+    width:270px;
+    height:330px;
+    float: right;
+    border-radius: 50px;
+    box-shadow: 10px 10px 10px  aqua;
+}
+.para h1{
+    text-align: center;
+    font-size: 3em;
+    position:relative;
+    top:180px;
+    text-decoration: underline;
+}
+.para p{
+    color: white;
+    font-size:28px;
+    /* text-align: justify; */
+    position:relative;
+    top:200px;
+}
+/* about container close */
+
+   /* skills container sarat */
+
+.Education-section{
+    background: url(https://c4.wallpaperflare.com/wallpaper/436/660/884/4k-dark-particles-circles-wallpaper-preview.jpg);
+    background-repeat: non;
+    height: 100vh;
+    position:relative;
+    
+   }
+.Education-section h1{
+      color: rgb(221, 255, 0);
+      font-size: 2.7em;
+      text-align: center;
+      background:linear-gradient(to right,rgb(75, 35, 219),rgb(6, 235, 235));
+      border-radius: 80px;
+} 
+.Education-section{
+    /* background-color: black; */
+    color: aqua;
+    height: 100vh;
+}
+.edu-grid-container{
+    display: grid;
+    grid-template-columns: 300px;
+    grid-template-rows: 150px;
+    height:780px
+}
+.edu-grid-container{
+    position: relative;
+    top: 10%;
+    display: grid;
+    grid-template-columns: 300px 300px;
+    grid-template-rows: 200px 200px;
+    justify-content: space-evenly;
+    grid-column-gap: 1px;
+    column-gap: 1px;
+    grid-row-gap: 1px;
+    row-gap: 1px;
+    height: 460px;
+    border: 3px solid  rgb(24, 138, 220);
+    background-color: #1f242d;
+    border-radius: 30px;
+    box-shadow: 0px 0px 60px 9px rgb(22, 199, 253);
+}
+.education-container {
+    width: 350px;
+    padding-top: 30px;
+    font-size: 1em;
+    text-align: center;
+    color:aqua;
+    transition: 5s;
+    font-weight: bold;
+}
+.skills-section{
+    height: 100vh;
+    color: white;
+    background-image: url(images/ksks.jpg);
+     background-repeat: no-repeat;
+     background-size: 100% 100%;
+
+}
+.skills-section h1{
+    position: relative;
+    font-size: 2.4em;
+    color: rgb(0, 255, 255);
+    text-align: center;
+    background: linear-gradient(to right,rgb(29, 167, 231),rgb(224, 6, 236));
+    border-radius: 50px;
+}
+
+
+.grid-container{
+    display: grid;
+    grid-template-columns: 240px;
+    grid-template-rows: 70px;
+    grid-column-gap:10px;
+    grid-row-gap:10px;
+    top: 6%;
+    display: grid;
+    grid-template-columns: 150px 150px 150px;
+    grid-template-rows: 150px 150px 150px;
+    justify-content: space-evenly;
+    position: relative;
+}
+
+.grid-container .skills-container {
+    border: 3px solid rgb(255, 1, 217);
+    background-color: #1f242d;
+    border-radius: 30px;
+    font-size: 1.2em;
+    text-align: center;
+    padding-top: 40px;
+    color: aqua;
+    transition: 2s;
+    font-weight: bold;
+}
+.grid-container .skills-container:hover{
+    background: linear-gradient(to top, rgb(223, 32, 204) ,rgb(241, 112, 14));
+    color:black;
+}
+.skills-container .fa-brands{
+    font-size:1.76em;
+    padding-bottom:10px;
+}
+   /* skills container close */
+
+    /* Projects section start  */
+    
+    .project-section{
+        height:75vh;
+        background-image: url(images/project1.jpg);
+        position: relative;
+    }
+    .project-section h1{
+        font-size:1.3em;
+        color:aqua;
+        text-decoration: underline;
+        text-underline-offset: 10px;
+        
+    
+    }
+    .project-section .project-grid-container{
+        position:relative;
+        display:grid;
+        grid-template-rows: 120px 120px 120px;
+        grid-template-columns: 200px 200px 200px;
+        grid-column-gap:30px;
+        grid-row-gap: 40px;
+        text-align: center;
+        justify-content: center;
+        top:15%;
+    }
+    .project-grid-container .project-container{
+        position: relative;
+        border:2px solid rgb(3, 146, 249);
+        border-radius: 20px;
+        color:aqua;
+        box-shadow: 0px 0px 12px 2px blue;
+    }
+    .project-grid-container .project-container a{
+        position: absolute;
+        background-color: #05a7d0;
+        color:black;
+        top:88%;
+        right:25%;
+        border: 1.5px solid red;
+        border-radius:45px;
+        padding:6px 5px;
+        text-decoration: none;
+        font-weight: bold;
+        box-shadow:0px 0px 8px 2px blue;
+    }
+    .project-grid-container .project-container a:hover{
+        box-shadow:0px 0px 8px 2px rgb(252, 48, 7);
+    }
+    .project-grid-container .project-container h5{
+        padding-top:50px;
+        font-size: 1.1em;
+    }
+     #p1{
+    background-image: url('images/project1.jpg');
+    
+    }
+
+
+   /* Projects section end  */
